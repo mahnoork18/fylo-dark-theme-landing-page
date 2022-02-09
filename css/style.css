@@ -319,6 +319,13 @@ gap: 1em;
 }
 /*media queries*/
 @media(max-width:768px){
+      .services-section .box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 8em;
+    }
  
     .grid,
 .services-section .grid,
